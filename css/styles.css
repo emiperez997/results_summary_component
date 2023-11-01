@@ -114,7 +114,7 @@ body {
 .summary {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   text-align: left;
   flex-direction: column;
   width: 100%;
@@ -125,6 +125,7 @@ body {
   color: #4d525b;
   font-size: 1.2rem;
   font-weight: 600;
+  margin: 10px 0;
 }
 
 .stats {
@@ -185,6 +186,13 @@ body {
   color: #f9ffff;
   text-decoration: none;
   cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .bg-red {
