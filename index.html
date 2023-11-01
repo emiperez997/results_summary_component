@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="component">
+      <article class="results">
+        <h1 class="title">Your Result</h1>
+
+        <div class="circle">
+          <p class="circle-title">76</p>
+          <small class="circle-text">of 100</small>
+        </div>
+
+        <div class="info">Great</div>
+
+        <div class="results-footer">
+          <small class="footer-text">
+            You scored higher than 65% of the people who have taken these tests.
+          </small>
+        </div>
+      </article>
+
+      <section class="summary">
+        <h1 class="summary-title">Summary</h1>
+
+        <div class="stats">
+          <div class="mini-card bg-red">
+            <div class="icon">
+              <img src="./assets/images/icon-reaction.svg" alt="" />
+              <p class="text-red">Reaction</p>
+            </div>
+            <p class="card-stats"><span>80</span> / 100</p>
+          </div>
+          <div class="mini-card bg-yellow">
+            <div class="icon">
+              <img src="./assets/images/icon-memory.svg" alt="" />
+              <p class="text-yellow">Memory</p>
+            </div>
+            <p class="card-stats"><span>92</span> / 100</p>
+          </div>
+          <div class="mini-card bg-green">
+            <div class="icon">
+              <img src="./assets/images/icon-verbal.svg" alt="" />
+              <p class="text-green">Verbal</p>
+            </div>
+            <p class="card-stats"><span>61</span> / 100</p>
+          </div>
+          <div class="mini-card bg-blue">
+            <div class="icon">
+              <img src="./assets/images/icon-visual.svg" alt="" />
+              <p class="text-blue">Visual</p>
+            </div>
+            <p class="card-stats"><span>72</span> / 100</p>
+          </div>
+
+          <button class="button">Continue</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
